@@ -1,0 +1,17 @@
+{
+ "manifest_version": 2,
+ "name": "Dark Tab",
+ "version": "0.1",
+
+ "description" : "New Tab opens with a blank dark theme page",
+
+ "author": "Tom Lees",
+
+ "icons": {
+   "16": "images/darktab_16x16.png"
+ },
+
+ "chrome_url_overrides" : {
+   "newtab": "dark tab.html"
+ }
+}
